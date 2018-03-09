@@ -19,6 +19,8 @@
 #define token  "khD4jqMtp22gGSPXRPAg1yYMBEFc8Y"
 
 
+
+
 const byte interruptPin = 4;
 const byte indicationPin = 14;
 volatile byte state = HIGH;
@@ -106,7 +108,7 @@ void loop() {
         }
         if(!falseTrg)
         {
-           Serial.println("rising HIGH now");
+           Serial.println("rising HIGH now!");
           rising = HIGH;
         }
         
